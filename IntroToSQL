@@ -1,0 +1,69 @@
+Onboarding | Tables
+The DataCamp interface for SQL courses contains a few unique features you should be aware of.
+For this course, you'll be using a database containing information on almost 5000 films. To the right, underneath the editor, you can see the data in this database by clicking through the tabs.
+From looking at the tabs, who is the first person listed in the people table?
+
+Possible Answers
+Kanye West
+Biggie Smalls
+<<50 Cent>>
+Jay Z
+
+
+Notice the query result tab in the bottom right corner of your screen. This is where the results of your SQL queries will be displayed.
+Run this query in the editor and check out the resulting table in the query result tab!
+SELECT name FROM people;
+Who is the second person listed in the query result?
+
+
+Possible Answers
+
+Kanye West
+<<A. Michael Baldwin>>
+50 Cent
+Jay Z
+
+Submit the code to the right, check out the errors, then fix them!
+--fixed--
+-- Try running me!
+SELECT'DataCamp <3 SQL'
+AS RESULT
+
+
+Onboarding | Multi-step Exercises
+The following multi-step exercise allows you to practice a new concept through repetition. Check it out!
+
+
+SELECT 'SQL is cool'
+AS result;
+
+
+Beginning your SQL journey
+Now that you're familiar with the interface, let's get straight into it.
+
+SQL, which stands for Structured Query Language, is a language for interacting with data stored in something called a relational database.
+
+You can think of a relational database as a collection of tables. A table is just a set of rows and columns, like a spreadsheet, which represents exactly one type of entity. For example, a table might represent employees in a company or purchases made, but not both.
+
+Each row, or record, of a table contains information about a single entity. For example, in a table representing employees, each row represents a single person. Each column, or field, of a table contains a single attribute for all rows in the table. For example, in a table representing employees, we might have a column containing first and last names for all employees.
+
+The table of employees might look something like this:
+
+id	name	age	nationality
+1	Jessica	22	Ireland
+2	Gabriel	48	France
+3	Laura	36	USA
+How many fields does the employees table above contain?
+
+<<1>>
+
+
+2
+
+
+3
+
+
+4
+
+
